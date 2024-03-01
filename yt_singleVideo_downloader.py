@@ -9,10 +9,10 @@ def sanitize_filename(filename):
     return sanitized
 
 ##Replicate and Insert your desired YouTube Video URL
-video_url = "https://youtu.be/8URluz66dMg?si=nDBlV-iyEPsGpePF"
+video_url = ""
 
 #Replicate and Insert your desired Location to save the Video
-output_directory = r"C:\Users\samar\YouTube Downloads"  
+output_directory = r""  
 
 try:
     yt = YouTube(video_url)
